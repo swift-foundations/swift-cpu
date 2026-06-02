@@ -18,9 +18,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../../swift-primitives/swift-cpu-primitives"),
-        .package(path: "../../swift-intel/swift-x86-standard"),
-        .package(path: "../../swift-arm-ltd/swift-arm-standard"),
+        .package(url: "https://github.com/swift-primitives/swift-cpu-primitives.git", branch: "main"),
+        .package(url: "https://github.com/swift-intel/swift-x86-standard.git", branch: "main"),
+        .package(url: "https://github.com/swift-arm-ltd/swift-arm-standard.git", branch: "main"),
     ],
     targets: [
         .target(
