@@ -28,9 +28,9 @@ let package = Package(
             dependencies: [
                 .product(name: "CPU Primitives", package: "swift-cpu-primitives"),
                 .product(name: "X86 Standard", package: "swift-x86-standard",
-                         condition: .when(platforms: [.macOS, .iOS, .tvOS, .watchOS, .linux, .windows])),
+                         condition: .when(platforms: [.macOS, .iOS, .tvOS, .watchOS, .visionOS, .linux, .windows])),
                 .product(name: "ARM Standard", package: "swift-arm-standard",
-                         condition: .when(platforms: [.macOS, .iOS, .tvOS, .watchOS, .linux])),
+                         condition: .when(platforms: [.macOS, .iOS, .tvOS, .watchOS, .visionOS, .linux])),
             ]
         ),
         .testTarget(
