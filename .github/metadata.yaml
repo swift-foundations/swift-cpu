@@ -1,5 +1,5 @@
 # .github/metadata.yaml
-description: "CPU for Swift."
+description: "Composes cross-platform CPU vocabulary with architecture-specific x86 and ARM instruction-set specifications for Swift."
 topics:
   - foundations
   - cpu
