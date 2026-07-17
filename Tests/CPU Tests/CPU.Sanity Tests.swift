@@ -13,7 +13,7 @@ import CPU
 import Testing
 
 extension CPU {
-    @Suite("CPU sanity")
+    @Suite
     struct Test {
 
         // MARK: - L1 cross-platform vocabulary visible
